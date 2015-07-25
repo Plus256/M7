@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ThemeColor">#060</color>
+    <color name="White">#FFF</color>
+    <color name="Black">#000</color>
+    <color name="DarkGrey">#555</color>
+    <color name="LightGrey">#E1E1E1</color>
+    <color name="LightGreen">#0F0</color>
+    <color name="OrangeYellow">#FC0</color>
+    <color name="CoolBlue">#09F</color>
+
+</resources>
