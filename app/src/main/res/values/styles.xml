@@ -12,10 +12,10 @@
     <style name="MyActionBar"
         parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         
-        <item name="android:background">@drawable/m73</item>
+        <item name="android:background">@color/ThemeColor</item>
         
         <!--Support Library Compatibility-->
-        <item name="background">@drawable/m73</item>
+        <item name="background">@color/ThemeColor</item>
         
     </style>
 

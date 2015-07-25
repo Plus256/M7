@@ -10,11 +10,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/body_wrapper">
 
-        <LinearLayout
+        <!--<LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <!--A very large drawable can cause the emulator/app to stop working-->
+            A very large drawable can cause the emulator/app to stop working
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
@@ -23,7 +23,7 @@
                 android:contentDescription="@string/coverDescr"
                 android:layout_gravity="top" />
 
-        </LinearLayout>
+        </LinearLayout>-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,37 +57,69 @@
                         android:text="Peace, Unity and Transformation for Prosperity."
                         android:layout_alignParentTop="true"/>
 
+                    <!--Social Engagement-->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:layout_alignParentBottom="true">
 
-                        <TextView
+                        <LinearLayout
                             android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Like"
                             android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"/>
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Comm"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"
-                            android:layout_marginLeft="@dimen/rare_spacer"
-                            android:layout_marginRight="@dimen/rare_spacer"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/ic_favorite_black_24dp"/>
 
-                        <TextView
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="Like"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
                             android:layout_width="0dp"
+                            android:layout_weight="1.5"
                             android:layout_height="wrap_content"
-                            android:text="Share"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/ic_insert_comment_black_24dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="Comment"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"/>
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/ic_share_black_24dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="Share"/>
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -98,16 +130,16 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:src="@drawable/m75"
-                    android:scaleType="centerCrop"
+                    android:scaleType="fitStart"
                     android:contentDescription="@string/coverDescr"/>
-                <RelativeLayout
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -117,235 +149,78 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Leadership to benefit all the people of Uganda."
-                        android:layout_alignParentTop="true"/>
+                        android:layout_marginBottom="@dimen/rare_spacer"
+                        android:text="Leadership to benefit all the people of Uganda."/>
 
+                    <!--Social Engagement-->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:layout_alignParentBottom="true">
 
-                        <TextView
+                        <LinearLayout
                             android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Like"
                             android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"/>
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Comm"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"
-                            android:layout_marginLeft="@dimen/rare_spacer"
-                            android:layout_marginRight="@dimen/rare_spacer"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/ic_favorite_black_24dp"/>
 
-                        <TextView
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="Like"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
                             android:layout_width="0dp"
+                            android:layout_weight="1.5"
                             android:layout_height="wrap_content"
-                            android:text="Share"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/ic_insert_comment_black_24dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="Comment"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"/>
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/ic_share_black_24dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="Share"/>
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
-                </RelativeLayout>
+                </LinearLayout>
 
             </LinearLayout>
-
-            <!--<LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="@dimen/common_spacer">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/m74"
-                    android:scaleType="centerCrop"
-                    android:contentDescription="@string/coverDescr"/>
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="@dimen/rare_spacer"
-                    android:background="#FEFEFE">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Am coming to meet my people of Kawempe tomorrow."
-                        android:layout_alignParentTop="true"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_alignParentBottom="true">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Like"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"/>
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Comm"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"
-                            android:layout_marginLeft="@dimen/rare_spacer"
-                            android:layout_marginRight="@dimen/rare_spacer"/>
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Share"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"/>
-
-                    </LinearLayout>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="@dimen/common_spacer">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/m73"
-                    android:scaleType="centerCrop"
-                    android:contentDescription="@string/coverDescr"/>
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="@dimen/rare_spacer"
-                    android:background="#FEFEFE">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Infrastructure Development is one of my top priorities."
-                        android:layout_alignParentTop="true"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_alignParentBottom="true">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Like"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"/>
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Comm"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"
-                            android:layout_marginLeft="@dimen/rare_spacer"
-                            android:layout_marginRight="@dimen/rare_spacer"/>
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Share"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"/>
-
-                    </LinearLayout>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="@dimen/common_spacer">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/m77"
-                    android:scaleType="centerCrop"
-                    android:contentDescription="@string/coverDescr"/>
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="@dimen/rare_spacer"
-                    android:background="#FEFEFE">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Every household shall have access to free Education, Healthcare and Electricity."
-                        android:layout_alignParentTop="true"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_alignParentBottom="true">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Like"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"/>
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Comm"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"
-                            android:layout_marginLeft="@dimen/rare_spacer"
-                            android:layout_marginRight="@dimen/rare_spacer"/>
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="Share"
-                            android:layout_weight="1"
-                            android:gravity="center_horizontal"
-                            android:background="#FC0"/>
-
-                    </LinearLayout>
-
-                </RelativeLayout>
-
-            </LinearLayout>-->
 
         </LinearLayout>
 
