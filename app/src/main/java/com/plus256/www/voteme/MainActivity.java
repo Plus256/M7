@@ -1,4 +1,4 @@
-package com.plus256.www.votem7;
+package com.plus256.www.voteme;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;

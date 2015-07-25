@@ -1,4 +1,4 @@
-package com.plus256.www.votem7;
+package com.plus256.www.voteme;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

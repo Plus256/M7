@@ -23,11 +23,11 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
-                <com.plus256.www.votem7.ResizableImageView
+                <com.plus256.www.voteme.ResizableImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/farming"
-                    android:contentDescription="@string/coverDescr"/>
+                    android:contentDescription="@string/image_description"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -39,7 +39,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="@color/CoolBlue"
-                        android:text="@string/timeDate"/>
+                        android:text="@string/date_time"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -151,11 +151,11 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
-                <com.plus256.www.votem7.ResizableImageView
+                <com.plus256.www.voteme.ResizableImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ethiopian_minister"
-                    android:contentDescription="@string/coverDescr"/>
+                    android:contentDescription="@string/image_description"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -167,7 +167,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="@color/CoolBlue"
-                        android:text="@string/timeDate"/>
+                        android:text="@string/date_time"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -279,11 +279,11 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
-                <com.plus256.www.votem7.ResizableImageView
+                <com.plus256.www.voteme.ResizableImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/russians"
-                    android:contentDescription="@string/coverDescr"/>
+                    android:contentDescription="@string/image_description"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -295,7 +295,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="@color/CoolBlue"
-                        android:text="@string/timeDate"/>
+                        android:text="@string/date_time"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -407,11 +407,11 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
-                <com.plus256.www.votem7.ResizableImageView
+                <com.plus256.www.voteme.ResizableImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/bujumbura"
-                    android:contentDescription="@string/coverDescr"/>
+                    android:contentDescription="@string/image_description"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -423,7 +423,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="@color/CoolBlue"
-                        android:text="@string/timeDate"/>
+                        android:text="@string/date_time"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -535,23 +535,17 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
-                <com.plus256.www.votem7.ResizableImageView
+                <com.plus256.www.voteme.ResizableImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/revenue"
-                    android:contentDescription="@string/coverDescr"/>
+                    android:contentDescription="@string/image_description"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:padding="@dimen/rare_spacer"
                     android:background="#FEFEFE">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/CoolBlue"
-                        android:text="@string/timeDate"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -653,7 +647,7 @@
 
                     </LinearLayout>
 
-                </LinearLayout>
+-->                </LinearLayout>
 
             </LinearLayout>
 
