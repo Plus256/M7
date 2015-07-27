@@ -12,10 +12,10 @@
     <style name="MyActionBar"
         parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         
-        <item name="android:background">@color/ThemeColor</item>
+        <item name="android:background">@color/ThemeCounter</item>
         
         <!--Support Library Compatibility-->
-        <item name="background">@color/ThemeColor</item>
+        <item name="background">@color/ThemeCounter</item>
         
     </style>
 

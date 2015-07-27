@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="ThemeColor">#FC0</color>
+    <color name="ThemeColor">#ff8d35</color>
+    <color name="ThemeCounter">#113743</color>
+    <color name="WoodVeneer">#756867</color>
+    <color name="SandDollar">#d5d6d2</color>
     <color name="White">#FFF</color>
     <color name="Black">#000</color>
     <color name="DarkGrey">#555</color>
