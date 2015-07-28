@@ -39,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
         String feeds=getString(R.string.Feeds);
         try{
             JSONObject feedObjects=new JSONObject(feeds);
-            JSONObject revenue=feedObjects.getJSONObject("revenue");
+            JSONObject revenue=feedObjects.getJSONObject("farming");
             String revenue_text=revenue.getString("text");
             json_feed_text.setText(revenue_text);
         }
