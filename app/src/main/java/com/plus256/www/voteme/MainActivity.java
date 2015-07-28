@@ -7,6 +7,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -29,6 +33,19 @@ public class MainActivity extends ActionBarActivity {
         nAdapter=new ArrayAdapter<String>(this, R.layout.drawer_list_item, R.id.drawer_list_item, navItemsList);
         nDrawerList=(ListView)findViewById(R.id.left_drawer);
         nDrawerList.setAdapter(nAdapter);
+
+        //JSON FEEDS
+        TextView json_feed_text=(TextView)findViewById(R.id.json_feed_text);
+        String feeds=getString(R.string.Feeds);
+        try{
+            JSONObject feedObjects=new JSONObject(feeds);
+            JSONObject revenue=feedObjects.getJSONObject("revenue");
+            String revenue_text=revenue.getString("text");
+            json_feed_text.setText(revenue_text);
+        }
+        catch(JSONException e){
+            e.printStackTrace();
+        }
     }
 
     @Override
