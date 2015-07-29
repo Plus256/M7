@@ -1,13 +1,12 @@
 package com.plus256.www.voteme;
 
-import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -35,17 +34,29 @@ public class MainActivity extends ActionBarActivity {
         nDrawerList.setAdapter(nAdapter);
 
         //JSON FEEDS
-        TextView json_feed_text=(TextView)findViewById(R.id.json_feed_text);
+        List<Feed>feed_JSON_data=new ArrayList<Feed>();
         String feeds=getString(R.string.Feeds);
         try{
-            JSONObject feedObjects=new JSONObject(feeds);
-            JSONObject revenue=feedObjects.getJSONObject("farming");
-            String revenue_text=revenue.getString("text");
-            json_feed_text.setText(revenue_text);
+            JSONObject feed_objects=new JSONObject(feeds);
+            for(int i=0; i<feed_objects.length(); i++){
+                JSONObject feed=feed_objects.getJSONObject(String.valueOf(i));
+                String feed_image=feed.getString("image");
+                String feed_date=feed.getString("date");
+                String feed_text=feed.getString("text");
+                String feed_likes=feed.getString("likes");
+                String feed_comments=feed.getString("comments");
+                String feed_shares=feed.getString("shares");
+
+                feed_JSON_data.add(new Feed(feed_image, feed_date, feed_text, feed_likes, feed_comments, feed_shares));
+            }
         }
         catch(JSONException e){
             e.printStackTrace();
         }
+
+        ListView body_wrapper=(ListView)findViewById(R.id.body_wrapper);
+        FeedAdapter feeds_adapter=new FeedAdapter(this, R.layout.main_feed, feed_JSON_data);
+        body_wrapper.setAdapter(feeds_adapter);
     }
 
     @Override

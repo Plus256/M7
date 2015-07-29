@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:orientation="vertical"
-android:layout_marginBottom="@dimen/common_spacer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/common_spacer"
     android:id="@+id/main_feed">
 
     <com.plus256.www.voteme.ResizableImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/feed_image"
         android:src="@drawable/farming"
         android:contentDescription="@string/image_description"/>
     <LinearLayout
@@ -21,12 +22,14 @@ android:layout_marginBottom="@dimen/common_spacer"
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/feed_date"
             android:textColor="@color/ThemeCounter"
             android:text="@string/date_time"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/feed_text"
             android:textColor="@color/Black"
             android:text="@string/farming"/>
 
@@ -40,11 +43,13 @@ android:layout_marginBottom="@dimen/common_spacer"
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/feed_likes"
                 android:text="1.5K Likes"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/feed_comments"
                 android:text="800 Comments"
                 android:layout_marginLeft="@dimen/common_spacer"
                 android:layout_marginRight="@dimen/common_spacer"/>
@@ -52,6 +57,7 @@ android:layout_marginBottom="@dimen/common_spacer"
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/feed_shares"
                 android:text="79 Shares"/>
 
         </LinearLayout>
