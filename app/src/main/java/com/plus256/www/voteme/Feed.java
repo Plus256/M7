@@ -5,44 +5,69 @@ package com.plus256.www.voteme;
  */
 public class Feed {
 
-    private String feed_image;
-    private String feed_date;
-    private String feed_text;
-    private String feed_likes;
-    private String feed_comments;
-    private String feed_shares;
+    private String image;
+    private String date;
+    private String text;
+    private String likes;
+    private String comments;
+    private String shares;
 
-    public Feed(String feed_image, String feed_date, String feed_text, String feed_likes, String feed_comments, String feed_shares){
-        this.feed_image=feed_image;
-        this.feed_date=feed_date;
-        this.feed_text=feed_text;
-        this.feed_likes=feed_likes;
-        this.feed_comments=feed_comments;
-        this.feed_shares=feed_shares;
+    public Feed(){
+
     }
 
-    public String getFeedImage(){
-        return this.feed_image;
+    public Feed(String image, String date, String text, String likes, String comments, String shares){
+        super();
+        this.image=image;
+        this.date=date;
+        this.text=text;
+        this.likes=likes;
+        this.comments=comments;
+        this.shares=shares;
     }
 
-    public String getFeedDate(){
-        return this.feed_date;
+    //getters and setters
+
+    public String getImage(){
+        return image;
+    }
+    public void setImage(String image){
+        this.image=image;
     }
 
-    public String getFeedText(){
-        return this.feed_text;
+    public String getDate(){
+        return date;
+    }
+    public void setDate(String date){
+        this.date=date;
     }
 
-    public String getFeedLikes(){
-        return this.feed_likes;
+    public String getText(){
+        return text;
+    }
+    public void setText(String text){
+        this.text=text;
     }
 
-    public String getFeedComments(){
-        return this.feed_comments;
+    public String getLikes(){
+        return likes;
+    }
+    public void setLikes(String likes){
+        this.likes=likes;
     }
 
-    public String getFeedShares(){
-        return this.feed_shares;
+    public String getComments(){
+        return comments;
+    }
+    public void setComments(String comments){
+        this.comments=comments;
+    }
+
+    public String getShares(){
+        return shares;
+    }
+    public void setShares(String shares){
+        this.shares=shares;
     }
 
 

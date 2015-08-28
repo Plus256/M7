@@ -1,13 +1,13 @@
 <resources>
 
-    <string name="app_name">VoteMe</string>
+    <string name="app_name">VoteM7</string>
     <string name="main_title">News feed</string>
 
     <string name="action_settings">Settings</string>
 
     <string name="Feeds">
 
-        {
+        [
 
             \"revenue\":{
             \"image\":\"@drawable/revenue\",
@@ -55,14 +55,17 @@
             }
 
 
-        }
+        ]
 
     </string>
 
     <string name="image_description">Awesome Image</string>
     <string name="date_time">July 27 at 21:25</string>
-    <string name="farming">
-        At Mr Cypriano Okello`s farm at Imakioboro village, Awiepek parish,Aloi, Alebtong District. He has demonstrated how commercial farming does boost household income, engaging in fish farming, fruit growing and apiary, earning about 100m shillings per annum.
-    </string>
+
+    <string name="farming">At Mr Cypriano Okello`s farm at Imakioboro village, Awiepek parish,Aloi, Alebtong District. He has demonstrated how commercial farming does boost household income, engaging in fish farming, fruit growing and apiary, earning about 100m shillings per annum.</string>
+    <string name="bujumbura">This evening we concluded the High Level Dialogue on peace in Bujumbura. I want to assure the people of Burundi that the Government and opposition political leaders, Burundi eminent leaders who include former Presidents of the Republic of Burundi, namely Domitien Ndayizaye, Sylvestre Ntibantunganya and Jean Baptist Bagaza, religious leaders, representatives of the Civil Society Organisations and all stakeholders who attended the the High Level Dialogue on peace in Burundi, have agreed to continue the Peace dialogue and negotiate unconditionally and expeditiously in order to reach agreement on issues affecting their country and report back as soon as possible.</string>
+    <string name="ethiopia">Received the Prime Minister of Ethiopia, His Excellency Hailemariam Desalegn at State House-Entebbe, this afternoon. We held talks and discussed matters of mutual interest to both Uganda and Ethiopia, like strengthening our Defence ties.</string>
+    <string name="revenue">Today government collects Shs 12,000 billion per annum which has enabled us to provide essential facilities and services. More schools, roads, electricity, health centers have been provided because the Government has got good revenue.</string>
+    <string name="russians">Held a meeting with Mr. Alexander Lebedev, Mr. Evgeny Lebedev and the business delegation from Russia, yesterday at Nakasero State Lodge.</string>
 
 </resources>
