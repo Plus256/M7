@@ -1,4 +1,4 @@
-package com.plus256.www.voteme;
+package com.plus256.www.goforward;
 
 import android.content.Context;
 import android.view.LayoutInflater;

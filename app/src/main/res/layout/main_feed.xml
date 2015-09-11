@@ -6,7 +6,7 @@
     android:layout_marginBottom="@dimen/common_spacer"
     android:id="@+id/main_feed">
 
-    <com.plus256.www.voteme.ResizableImageView
+    <com.plus256.www.goforward.ResizableImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/feed_image"

@@ -1,4 +1,4 @@
-package com.plus256.www.voteme;
+package com.plus256.www.goforward;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

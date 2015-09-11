@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.plus256.www.voteme"
+        applicationId "com.plus256.www.goforward"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1

@@ -23,7 +23,7 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
-                <com.plus256.www.voteme.ResizableImageView
+                <com.plus256.www.goforward.ResizableImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
@@ -157,7 +157,7 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
-                <com.plus256.www.voteme.ResizableImageView
+                <com.plus256.www.goforward.ResizableImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
@@ -291,7 +291,7 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
-                <com.plus256.www.voteme.ResizableImageView
+                <com.plus256.www.goforward.ResizableImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
@@ -425,7 +425,7 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
-                <com.plus256.www.voteme.ResizableImageView
+                <com.plus256.www.goforward.ResizableImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
@@ -559,7 +559,7 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="@dimen/common_spacer">
 
-                <com.plus256.www.voteme.ResizableImageView
+                <com.plus256.www.goforward.ResizableImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 

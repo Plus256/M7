@@ -1,4 +1,4 @@
-package com.plus256.www.voteme;
+package com.plus256.www.goforward;
 
 /**
  * Created by Collins on 7/29/15.
